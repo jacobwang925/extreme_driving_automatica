@@ -15,7 +15,9 @@ import math
 import time
 
 # Load carla module
-path_to_carla = os.path.expanduser("~/carla/carla_0_9_15")
+# replace with your carla path
+# path_to_carla = os.path.expanduser("~/carla/carla_0_9_15")
+path_to_carla = os.path.expanduser("~/occlusion_perception/Adeesh/carla")
 
 sys.path.append(glob.glob(path_to_carla + '/PythonAPI/carla/dist/carla-*%d.%d-%s.egg' % (
     sys.version_info.major,
