@@ -9,9 +9,9 @@ import random
 from datetime import datetime
 
 # keras
-from keras.models import Sequential
-from keras.layers import Dense, Activation
-from keras.optimizers import Adam
+# from keras.models import Sequential
+# from keras.layers import Dense, Activation
+# from keras.optimizers import Adam
 
 from torch import nn
 from torch.optim import Adam
